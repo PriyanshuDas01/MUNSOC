@@ -1,0 +1,166 @@
+html{
+    scroll-behavior: smooth;
+}
+.nav{
+    background-color: rgb(0, 0, 0);
+    border-radius: 0px;
+
+    
+}
+.nav ul{
+    overflow: auto;
+
+}
+.nav li{
+    
+        float: left;
+        list-style: none;
+        padding-left: 2%;
+        margin: 1%;
+        padding-top: 0%;
+        font-size: 22px;
+        
+       
+    }
+    .nav li a{
+        text-decoration: none;
+        color:#5BADFF;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       cursor: pointer;
+       padding: 6px;
+
+       
+       
+       
+        
+    }
+    .nav li a:hover, .nav a.home{
+        color: rgb(255, 255, 255);
+        background-color: #5BADFF;
+        border-radius: 25px;
+        
+        
+        
+    }
+    nav.top{
+        position: fixed;
+        top: 0;
+        left: 0;
+
+
+    }
+   
+        .nav img{
+            width:60%;
+            
+        }
+    .logo1
+    {
+      padding-top: 0%;
+      padding-right: 14%;
+      
+    }
+    .fground{ border-radius: 50%;
+        
+        
+    }
+    .parallex{
+        color: aliceblue;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 110vh;
+    }
+    #text{
+        position: relative;
+        font-size: 4em;
+        color: #f8fcff;
+        
+       
+
+
+    }
+    .parallex img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        pointer-events: none;
+    }
+    .mainabout{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .about{
+        font-size: 3em;
+        color: #5BADFF;
+        margin-bottom: 10px;
+        text-align: center;
+        
+
+    }
+  .abouttext {
+    font-size: 1.5em;
+    color: white;
+    font-weight: 300;
+    padding: 2%;
+    
+  }
+  .aboutimg{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .etext{
+    margin-top: 15%;
+    font-size: 3em;
+    color: #5BADFF;
+    margin-bottom: 10px;
+    text-align: center;
+    
+  }
+  .event{
+    margin-top: 5%;
+    height: 800px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+@media (max-width:700px){
+    .event{
+        flex-wrap: wrap;
+        grid-template-columns: minmax(300px,1fr);
+    }
+}
+
+
+.otext{
+    margin-top: 8%;
+    font-size: 3em;
+    color: #5BADFF;
+    margin-bottom: 10px;
+    text-align: center;
+    
+  }
+
+  .ach{
+    
+    background-color: aqua;
+    display: flex;
+    margin-top: 5%;
+    height: 250px;
+    width: 250px;
+    
+    padding-left: 5%;
+    justify-content: space-evenly;
+
+    
+    
+  }
+
+  }
+
+    
+
+
