@@ -123,8 +123,9 @@ html{
   }
   .event{
     margin-top: 5%;
-    height: 800px;
+   
     display: flex;
+    position: static;
     justify-content: space-evenly;
   }
 @media (max-width:700px){
@@ -151,6 +152,7 @@ html{
     margin-top: 5%;
     height: 250px;
     width: 250px;
+    position: relative;
     
     padding-left: 5%;
     justify-content: space-evenly;
@@ -159,7 +161,7 @@ html{
     
   }
 
-  }
+  
 
     
 
