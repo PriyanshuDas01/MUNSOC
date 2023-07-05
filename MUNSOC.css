@@ -18,19 +18,21 @@ html{
 .nav li{
     
         float: left;
-        list-style: none;
-        padding-left: 2%;
-        margin: 1%;
+        list-style: none; 
+        margin: 0%;
         padding-top: 0%;
         font-size: 22px;   
     }
+.home{
+  padding-left: 4%;
+}
 
 .nav li a{
         text-decoration: none;
         color:#5BADFF;
        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
        cursor: pointer;
-       padding: 1px;    
+       padding: 0%;    
     }
 
 .nav li a:hover, .nav a.home{
@@ -53,42 +55,45 @@ nav.top{
           top: 0;
           width: 100%;
         }
-    .logo1
+.logo1
     {
+      padding-left: 1%;
       padding-top: 0%;
       padding-right: 14%;
       
     }
-    .fground{ border-radius: 50%;
+.fground{ border-radius: 50%;
         
         
     }
-    .parallex{
+.parallex{
         color: aliceblue;
         position: relative;
         display: block flex;
         justify-content: center;
         align-items: center;
-        height: 110vh;
+        height: 150vh;
         z-index: 1;
     }
-    #text{
+#text{
         position: relative;
         font-size: 4em;
         color: #f8fcff;
     }
-    .parallex img{
+.parallex img{
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         pointer-events: none;
+        opacity: 0.4;
+        background-color: black;
     }
-    .mainabout{
+.mainabout{
         display: flex;
         justify-content: space-evenly;
     }
-    .about{
+.about{
         font-size: 3em;
         color: #5BADFF;
         margin-bottom: 10px;
@@ -119,7 +124,7 @@ nav.top{
   }
   .event{
     margin-top: 5%;
-    height: 800px;
+    
     display: flex;
     position: static;
     justify-content: space-evenly;
