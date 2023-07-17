@@ -62,17 +62,15 @@ nav.top{
       
     }
 .fground{ border-radius: 50%;
-        
-        
+
     }
 .parallex{
         color: aliceblue;
         position: relative;
-        display: block flex;
+        display: flex;
         justify-content: center;
         align-items: center;
         height: 150vh;
-        z-index: 1;
     }
 #text{
         position: relative;
