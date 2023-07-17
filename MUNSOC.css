@@ -1,11 +1,15 @@
 html{
     scroll-behavior: smooth;
 }
+* {
+    box-sizing: border-box;
+  }
 .nav{
+    height: 70px;
     background-color: rgb(0, 0, 0);
     border-radius: 0px;
-
-    
+    display: block;
+    z-index: 2;
 }
 .nav ul{
     overflow: auto;
@@ -14,85 +18,82 @@ html{
 .nav li{
     
         float: left;
-        list-style: none;
-        padding-left: 2%;
-        margin: 1%;
+        list-style: none; 
+        margin: 0%;
         padding-top: 0%;
-        font-size: 22px;
-        
-       
+        font-size: 22px;   
     }
-    .nav li a{
+.home{
+  padding-left: 4%;
+}
+
+.nav li a{
         text-decoration: none;
         color:#5BADFF;
        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
        cursor: pointer;
-       padding: 6px;
-
-       
-       
-       
-        
+       padding: 0%;    
     }
-    .nav li a:hover, .nav a.home{
+
+.nav li a:hover, .nav a.home{
         color: rgb(255, 255, 255);
         background-color: #5BADFF;
-        border-radius: 25px;
-        
-        
-        
+        border-radius: 25px;   
     }
-    nav.top{
+
+nav.top{
         position: fixed;
         top: 0;
         left: 0;
-
-
     }
    
-        .nav img{
-            width:60%;
-            
+.nav img{
+    width:60%;
+    }
+.sticky {
+          position: fixed;
+          top: 0;
+          width: 100%;
         }
-    .logo1
+.logo1
     {
+      padding-left: 1%;
       padding-top: 0%;
       padding-right: 14%;
       
     }
-    .fground{ border-radius: 50%;
+.fground{ border-radius: 50%;
         
         
     }
-    .parallex{
+.parallex{
         color: aliceblue;
         position: relative;
-        display: flex;
+        display: block flex;
         justify-content: center;
         align-items: center;
-        height: 110vh;
+        height: 150vh;
+        z-index: 1;
     }
-    #text{
+#text{
         position: relative;
         font-size: 4em;
         color: #f8fcff;
-        
-       
-
-
     }
-    .parallex img{
+.parallex img{
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         pointer-events: none;
+        opacity: 0.4;
+        background-color: black;
     }
-    .mainabout{
+.mainabout{
         display: flex;
         justify-content: space-evenly;
     }
-    .about{
+.about{
         font-size: 3em;
         color: #5BADFF;
         margin-bottom: 10px;
@@ -123,7 +124,7 @@ html{
   }
   .event{
     margin-top: 5%;
-   
+    
     display: flex;
     position: static;
     justify-content: space-evenly;
@@ -145,20 +146,15 @@ html{
     
   }
 
-  .ach{
-    
+  .ach{  
     background-color: aqua;
     display: flex;
     margin-top: 5%;
     height: 250px;
     width: 250px;
-    position: relative;
     
     padding-left: 5%;
-    justify-content: space-evenly;
-
-    
-    
+    justify-content: space-evenly;  
   }
 
   
