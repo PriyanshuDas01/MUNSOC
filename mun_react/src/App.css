@@ -109,7 +109,7 @@
   
   display: absolute;
   margin-left: 26%;
-  color:#FFFFFF;
+  color:#ffffff;
   text-shadow: -8px 4px 4px #000;
   font-family: Inter;
   /* font-size: 48px; */
@@ -126,7 +126,7 @@
   position: relative;
   overflow: hidden;
   z-index: 1;
-  /* color: #090909; */
+  color: #ffffff;
   padding: 0.7em 1.7em;
   font-size: 1.5vw;
   border-radius: 1.5em;
@@ -174,7 +174,7 @@
 }
 
 .button2:hover {
-  color: #ffffff;
+  color: #000000;
   border: 1px solid #FFD700;
 }
 
