@@ -14,7 +14,7 @@ function App() {
     <>
       < Navbar />
       < Index />
-      < About/>
+< About/>
     
 
       

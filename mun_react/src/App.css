@@ -192,13 +192,13 @@
 
 /* About us  ============================================================================================================================= */
 .AboutUs{
-margin-top: 20%;
+margin-top: 0%;
   display: block;
 }
 
 .text1{
   margin-left: 35%;
-  margin-top: 10%;
+  /* margin-top: 10%; */
 font-size: 7vw;
 font-family: var(--font-inder);
 color:#e0c00b;
@@ -213,7 +213,7 @@ height: 11.74rem;
   padding-left: 10%;
   padding-right: 10%;
   display: absolute;
-  margin-top: 1%;
+  /* margin-top: 1%; */
   color:#FFFFFF;
   text-shadow: -8px 4px 4px #000;
   font-family: Inter;
