@@ -2,30 +2,45 @@
   margin-top: 20px;
   margin: auto;
   /* background-image: url('../public/back.png'); */
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   overflow: hidden;
   border-radius: 25px;
   height: 45vw;
   width: 98%;
+  /* border-color: blue;
+  border-style: solid; */
 }
+.back::before {
+  content: "";
+  position: absolute;
+  height: 45vw;
+  width: 98%;
+  overflow: hidden;
+  border-radius: 25px;
+  background-image: url('../public/back.png');
+  background-size: 100% 100%;
+  filter: brightness(75%);
+  z-index: -1;
+}
+
 .blurbox {
   position: absolute;
   height: 100vh;
   width: 100%;
 }
-.menu{
-  /* position: absolute; */
-  /* border-style: solid;
-  border-color: aqua; */
+
+.menu {
   margin-top: 0.5rem;
   height: 100%;
   width: 40%;
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content: space-between;
 
 }
-.logo{
+
+.logo {
   margin-top: 0.5rem;
   margin-left: 1.5rem;
   width: 7%;
@@ -33,25 +48,27 @@
   /* border-style: solid;
   border-color: #e0c00b; */
 }
-.home{
+
+.home {
   /* border-style: solid;
   border-color: #e0c00b; */
 }
-.nav{
+
+.nav {
   height: 5vw;
   width: 98%;
   position: absolute;
-  /* border-color: #000;
-  border-style: solid; */
   display: flex;
   flex-direction: row;
-  justify-content:space-between ;
+  justify-content: space-between;
   align-items: stretch;
 }
-.n{
+
+.n {
   height: 10%;
   margin: 10px;
 }
+
 .rectangle-icon {
   /* position: absolute; */
   /* margin-left: 1.5rem; */
@@ -61,30 +78,32 @@
   height: 100%;
   /* object-fit: cover; */
 }
-.backimg{
+
+.backimg {
   position: absolute;
   /* top: 1.25rem;
   left: 1.75rem; */
   border-radius: 25px;
-  width: 98%;
-  height: 100%;
-  filter: brightness(75%); 
-  /* object-fit: cover; */
+  /* width: 98%;
+  height: 100%; */
+  filter: brightness(75%);
+  object-fit: cover;
   z-index: -1;
 }
-.headtext{
-  height: 22%;
+
+.headtext {
+  height: 10vw;
   width: 81%;
   margin-top: 13%;
   margin-left: 9%;
   position: absolute;
   flex-direction: column;
   backdrop-filter: blur(2px);
-  filter: brightness(100%); 
+  filter: brightness(100%);
   /* border-color: white;
   border-style: solid;
-  border-width: 1px;
-  z-index: 1; */
+  border-width: 1px; */
+  z-index: 1;
 }
 
 .model-united-nations,
@@ -97,7 +116,7 @@
   margin-top: 2%;
   font-size: 7vw;
   font-family: var(--font-inder);
-  color:#e0c00b;
+  color: #e0c00b;
   width: 77.63rem;
   height: 11.74rem;
   text-shadow: -8px 2px 4px #000;
@@ -106,10 +125,10 @@
 }
 
 .nit-agartala {
-  
+
   display: absolute;
   margin-left: 26%;
-  color:#ffffff;
+  color: #ffffff;
   text-shadow: -8px 4px 4px #000;
   font-family: Inter;
   /* font-size: 48px; */
@@ -119,6 +138,7 @@
   line-height: normal;
   /* box-shadow: -8px 4px 4px 0px #000000; */
 }
+
 .button2 {
   /* margin-top: 10%; */
   /* display: inline-block; */
@@ -133,6 +153,7 @@
   background-color: transparent;
   /* background: #FFD700; */
   border: 1px solid #FFD700;
+  backdrop-filter: blur(2px);
   /* box-shadow: 6px 6px 12px #FFD700,
              -6px -6px 12px #FFD700; */
 }
@@ -140,7 +161,7 @@
 .button2:active {
   color: #FFD700;
   box-shadow: inset 4px 4px 12px #FFD700,
-             inset -4px -4px 12px #FFD700;
+    inset -4px -4px 12px #FFD700;
 }
 
 .button2:before {
@@ -156,6 +177,7 @@
   display: block;
   transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
   z-index: -1;
+  
 }
 
 .button2:after {
@@ -191,30 +213,31 @@
 }
 
 /* About us  ============================================================================================================================= */
-.AboutUs{
-margin-top: 0%;
+
+.AboutUs {
+  margin-top: 0%;
   display: block;
+  /* border-color: red;
+  border-style: solid; */
 }
 
-.text1{
+.text1 {
   margin-left: 35%;
-  /* margin-top: 10%; */
-font-size: 7vw;
-font-family: var(--font-inder);
-color:#e0c00b;
-width: 77.63rem;
-height: 11.74rem;
-
-
-  
-
+  margin-top: 3%;
+  font-size: 7vw;
+  font-family: var(--font-inder);
+  color: #e0c00b;
+  width: 29.63vw;
+  /* border-color: red;
+  border-style: solid; */
 }
-.text2{
+
+.text2 {
   padding-left: 10%;
   padding-right: 10%;
   display: absolute;
   /* margin-top: 1%; */
-  color:#FFFFFF;
+  color: #FFFFFF;
   text-shadow: -8px 4px 4px #000;
   font-family: Inter;
   /* font-size: 48px; */
@@ -222,9 +245,5 @@ height: 11.74rem;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-  font-family: 'Times New Roman', Times, serif
-
-
+  font-family: 'Times New Roman', Times, serif;
 }
-
-
