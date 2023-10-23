@@ -1,7 +1,8 @@
 //import logo from './logo.svg';
 import './App.css';
 import Navbar  from './components/navbar';
-import Index  from './components/index';
+import Index from './components/index';
+import  About from './components/aboutus';
 // import {
 //   BrowserRouter as Router,
 //   Routes,
@@ -13,6 +14,7 @@ function App() {
     <>
       < Navbar />
       < Index />
+      < About/>
     
 
       
