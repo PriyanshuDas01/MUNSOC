@@ -1,0 +1,36 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+.AboutUs {
+    margin-top: 0%;
+    display: block;
+    /* border-color: red;
+    border-style: solid; */
+  }
+  
+  .text1 {
+    margin-left: 35%;
+    margin-top: 0%;
+    font-size: 7vw;
+    font-family: var(--font-inder);
+    color: #e0c00b;
+    width: 29.63vw;
+    /* border-color: red;
+    border-style: solid; */
+  }
+  
+  .text2 {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: absolute;
+    /* margin-top: 1%; */
+    color: #FFFFFF;
+    text-shadow: -8px 4px 4px #000;
+    font-family: Inter;
+    /* font-size: 48px; */
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    font-family: 'Times New Roman', Times, serif;
+  }

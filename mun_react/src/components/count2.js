@@ -1,16 +1,11 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './count2.css';
 import $ from 'jquery';
 
 import { useEffect } from 'react';
 
 const CountdownComponent = () => {
-//     const element = document.getElementById('countdown-canvas');
-// if (element) {
-//   // Now you can safely use element.setAttribute(...)
-// } else {
-//   console.error("Element not found in the DOM.");
-// }
+
   useEffect(() => {
     
     var ringer = {
