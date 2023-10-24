@@ -17,24 +17,24 @@
     /* margin: 40px auto; */
     margin-top: 5%;
     margin-left: 20%;
-    /* border-color: red;
-    border-style: solid; */
+    border-color: red;
+    border-style: solid;
   }
   .countdown-container{
     display: block;
     position: static;
     margin-top: 0%;
     margin-left: 20%;
-    height: 50vh;
-    width: 60%;
-    /* border-color: red;
-    border-style: solid; */
+    height: 50vw;
+    width: 50vw;
+    border-color: red;
+    border-style: solid;
   }
   .counthead{
     color: white;
     font-size: 3vw;
-    /* border-color: red;
-    border-style: solid; */
+    border-color: red;
+    border-style: solid;
     margin-left: 25%;
     margin-top: 5%;
   }

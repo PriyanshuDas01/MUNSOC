@@ -3,9 +3,8 @@ import './App.css';
 import Navbar from './components/navbar';
 import Index from './components/index';
 import About from './components/aboutus';
-// import Count from './components/count';
-// import Count from './components/mycount';
- import CountdownComponent from './components/count2';
+import Com from './components/committee';
+import CountdownComponent from './components/count2';
 // import {
 //   BrowserRouter as Router,
 //   Routes,
@@ -20,6 +19,8 @@ function App() {
       {/* < Count/> */}
       < CountdownComponent />
       < About />
+      <Com />
+      <div className='come'></div>
 
     </>
   );
