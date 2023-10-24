@@ -4,6 +4,7 @@
 .AboutUs {
     margin-top: 0%;
     display: block;
+    
     /* border-color: red;
     border-style: solid; */
   }
@@ -22,7 +23,8 @@
   .text2 {
     padding-left: 10%;
     padding-right: 10%;
-    display: absolute;
+    /* display: absolute; */
+    position: absolute;
     /* margin-top: 1%; */
     color: #FFFFFF;
     text-shadow: -8px 4px 4px #000;
@@ -33,4 +35,5 @@
     font-weight: 800;
     line-height: normal;
     font-family: 'Times New Roman', Times, serif;
+    z-index: 2;
   }

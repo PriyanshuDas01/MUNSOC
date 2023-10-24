@@ -5,12 +5,17 @@ import $ from 'jquery';
 import { useEffect } from 'react';
 
 const CountdownComponent = () => {
+  // function calculateResponsiveValue(valueInPx) {
+  //   var viewportWidth = window.innerWidth;
+  //   return (valueInPx / viewportWidth) * 100 + 'vw';
+  // }
+ 
 
   useEffect(() => {
-    
+
     var ringer = {
         //countdown_to: "10/31/2014",
-        countdown_to: "12/27/2023",
+        countdown_to: "12/16/2023",
         rings: {
           'DAYS': { 
             s: 86400000, // mseconds in a day,
@@ -33,19 +38,24 @@ const CountdownComponent = () => {
         //     max: 100
         //   }
          },
-        r_count: 5,
+  
+        r_count: '4',
         r_spacing: 10, // px
         r_size: 100, // px
         r_thickness: 2, // px
         update_interval: 11, // ms
-          
+        // r_count: 4,
+        // r_spacing: calculateResponsiveValue(10), // Responsive calculation for spacing
+        // r_size: calculateResponsiveValue(100), // Responsive calculation for size
+        // r_thickness: calculateResponsiveValue(2), // Responsive calculation for thickness
+        // update_interval: 11, // ms (can be fixed)
           
         init: function(){
          
         //   ringer = ringer;
         //   ringer.cvs = document.createElement('canvas'); 
         ringer.cvs = document.getElementById('countdown-canvas');
-        
+      
 
           
           ringer.size = { 

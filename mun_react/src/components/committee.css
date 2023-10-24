@@ -1,17 +1,51 @@
 .com{
-    height: 100vh;
+    height: 100vw;
     width: 100%;
     color: azure;
     background-repeat: no-repeat;
-    position: sticky;
-    display: block;
-    z-index: 10;
+    display: flex ; 
+    flex-direction: column;
+    z-index: -2;
     border-color: red;
     border-style: solid;
+    border-width: 5px;
+    overflow-y: scroll;
 }
 .globe{
-    height: 50vh;
+    top: 20vw;
+    margin-left: 35vw;
+    height: 25vw;
     width: 30%;
-    border-color: red;
+    filter: brightness(50%) grayscale(50%) ;
+    scale: 1;
+    /* border-color: red;
     border-style: solid;
+    border-width: 5px; */
+    position: sticky ;
 }
+.com::-webkit-scrollbar {
+    width: 0.1em;
+  }
+  
+  .com::-webkit-scrollbar-track {
+    background: transparent; /* Or set a background color */
+  }
+  
+  .com::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Or set a background color */
+    border: none;
+  }
+.olive{
+    height: 42vw;
+    width: 55vw;
+    margin-top: 41vw;
+    margin-left: 22.5vw;
+    position: absolute;
+}
+  
+  
+  
+  
+  
+  
+  
