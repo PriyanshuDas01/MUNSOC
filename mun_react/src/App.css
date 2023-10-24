@@ -49,10 +49,7 @@
   border-color: #e0c00b; */
 }
 
-.home {
-  /* border-style: solid;
-  border-color: #e0c00b; */
-}
+/*  */
 
 .nav {
   height: 5vw;
@@ -223,7 +220,7 @@
 
 .text1 {
   margin-left: 35%;
-  margin-top: 3%;
+  margin-top: 0%;
   font-size: 7vw;
   font-family: var(--font-inder);
   color: #e0c00b;
