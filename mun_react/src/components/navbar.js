@@ -16,7 +16,7 @@ export default class NavBar extends Component {
               Home
             </button></a></div>
             <div className="home"><a href="!"><button className="button2">
-              Commettiees
+              Commettees
             </button></a></div>
             <div className="home"><a href="!"><button className="button2">
               Contact Us

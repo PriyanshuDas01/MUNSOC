@@ -19,7 +19,7 @@ const CountdownComponent = () => {
         rings: {
           'DAYS': { 
             s: 86400000, // mseconds in a day,
-            max: 365
+            max: 100
           },
           'HOURS': {
             s: 3600000, // mseconds per hour,

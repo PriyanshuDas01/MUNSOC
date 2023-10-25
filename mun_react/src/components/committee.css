@@ -1,14 +1,17 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 .com{
-    height: 100vw;
+    height: 90vw;
     width: 100%;
     color: azure;
     background-repeat: no-repeat;
     display: flex ; 
     flex-direction: column;
     z-index: -2;
-    border-color: red;
+    /* border-color: red;
     border-style: solid;
-    border-width: 5px;
+    border-width: 5px; */
     overflow-y: scroll;
 }
 .globe{
@@ -41,7 +44,22 @@
     margin-top: 41vw;
     margin-left: 22.5vw;
     position: absolute;
+    opacity: 0;
 }
+.hd{
+    margin-top: 48vw;
+    margin-left: 34vw;
+    font-size: 5vw;
+    color: gold;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    opacity: 0;
+}
+.visible{
+    
+    visibility:visible; opacity:1
+}
+
   
   
   
