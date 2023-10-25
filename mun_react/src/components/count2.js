@@ -9,6 +9,11 @@ const CountdownComponent = () => {
   //   var viewportWidth = window.innerWidth;
   //   return (valueInPx / viewportWidth) * 100 + 'vw';
   // }
+  function calculatePixelValue(valueInVw) {
+    var viewportWidth = window.innerWidth;
+    return (valueInVw * viewportWidth) / 100 ;
+  }
+  
  
 
   useEffect(() => {
@@ -40,9 +45,9 @@ const CountdownComponent = () => {
          },
   
         r_count: '4',
-        r_spacing: 10, // px
-        r_size: 100, // px
-        r_thickness: 2, // px
+        r_spacing: calculatePixelValue(1), // px
+        r_size: calculatePixelValue(10), // px
+        r_thickness:calculatePixelValue(0.3), // px
         update_interval: 11, // ms
         // r_count: 4,
         // r_spacing: calculateResponsiveValue(10), // Responsive calculation for spacing
@@ -71,7 +76,7 @@ const CountdownComponent = () => {
           ringer.ctx.textAlign = 'center';
           ringer.actual_size = ringer.r_size + ringer.r_thickness;
           ringer.countdown_to_time = new Date(ringer.countdown_to).getTime();
-          ringer.cvs.css({ width: ringer.size.w+"px", height: ringer.size.h+"px" });
+          // ringer.cvs.css({ width: ringer.size.w+"px", height: ringer.size.h+"px" });
           ringer.go();
         },
         ctx: null,
@@ -123,12 +128,12 @@ const CountdownComponent = () => {
           // label
           ringer.ctx.fillStyle = "#ffffff";
          
-          ringer.ctx.font = '12px Helvetica';
-          ringer.ctx.fillText(label, 0, 23);
-          ringer.ctx.fillText(label, 0, 23);   
+          ringer.ctx.font = '1vw Helvetica';
+          ringer.ctx.fillText(label, 0, 2 + ringer.actual_size * 0.15);
+          ringer.ctx.fillText(label, 0,  2 + ringer.actual_size * 0.15);   
           
-          ringer.ctx.font = 'bold 40px Helvetica';
-          ringer.ctx.fillText(Math.floor(value), 0, 10);
+          ringer.ctx.font = 'bold 3vw Helvetica';
+          ringer.ctx.fillText(Math.floor(value), 0,0 + ringer.actual_size * 0.06);
           
           ringer.ctx.restore();
         }
