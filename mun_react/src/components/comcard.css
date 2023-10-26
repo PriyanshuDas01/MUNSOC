@@ -27,10 +27,24 @@
    border-width: 1vw; */
    height: 125vw;
  }
+ .bgg{
+   position:fixed;
+   top: 0vw;
+   margin-top: 400vw;
+   z-index:-3;
+   width: 98%;
+   margin-top: 10vh;
+   margin-left: 1.5vh;
+   margin-right: 1.5vh;
+ 
+   filter: grayscale(30%) brightness(50%);
+   
+ }
+
  
  .com1 {
-    position: relative;
-    margin-left: 10vw;
+     position: relative; 
+    margin-left: 13vw;
     /* margin-top: 3vw; */
     width: 25vw;
     height: 25vw;
@@ -70,7 +84,7 @@
     width: 25vw;
     height: 25vw;
     border-radius: 50%;
-    background: black;
+    background: transparent;
     transition: 0.5s, background 0.5s;
     transition-delay: 0.3s, 0.8s;
     border: #0cb0eb;
@@ -201,8 +215,8 @@
        
  
  .com2 {
-    position: relative;
-     margin-left: 60vw;
+     position: relative; 
+     margin-left: 65vw;
     margin-top: 3vw;
     margin-bottom: 2vw;
     width: 25vw;
@@ -245,7 +259,7 @@
     width: 25vw;
     height: 25vw;
     border-radius: 50%;
-    background: black;
+    background: transparent;
     transition: 0.5s, background 0.5s;
     transition-delay: 0.3s, 0.8s;
     border: #0cb0eb;

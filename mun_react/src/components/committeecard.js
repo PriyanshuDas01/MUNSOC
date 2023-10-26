@@ -8,6 +8,7 @@ import whob from './p2.jpg';
 import legalb from './p3.jpg';
 import unhrcb from './p4.jpg';
 import legall from './legal.png';
+import combg from './bg1.png';
 
 
 export default class Card extends Component {
@@ -16,19 +17,20 @@ export default class Card extends Component {
         return (
             <>
 
-            <div className='card'>
-                <div class="com1 'visible transition duration-1000 delay-800'">
-        <div class="circle">
-            <img src={disecl} class="logo1" alt="logo"/>
-            <img src={disecb} class="logo2" alt="logo"/>
-            <p class="agenda">
+                <div className='card'>
+                <img src={combg} className="bgg"/>
+                <div className="com1 'visible transition duration-1000 delay-800'">
+        <div className="circle">
+            <img src={disecl} className="logo1" alt="logo"/>
+            <img src={disecb} className="logo2" alt="logo"/>
+            <p className="agenda">
                 <b>Disarmament and International Security Committee (DISEC)</b>
             </p>
-            <div class="agendatext">
+            <div className="agendatext">
                 The UN General Assembly (UNGA) is the main policy-making organ of the Organization. Comprising all Member States, it provides a unique forum for multilateral discussion of the full spectrum of international issues covered by the Charter of the United Nations. Each of the Member States of the United Nations has an equal vote.
                 <div>
-                    <button class="button1">
-                       <b class="btext">EB & Agenda</b>
+                    <button className="button1">
+                       <b className="btext">EB & Agenda</b>
                     </button>
                 </div>
             
@@ -36,76 +38,76 @@ export default class Card extends Component {
 
 
         </div>
-        <div class="comImg">
+        <div className="comImg">
              
         </div>
     </div>
 
 
-    <div class="com2">
-        <div class="circle2" >
-            <img src={whol} class="logo12" alt="logo"/>
-            <img src={whob} class="logo22" alt="logo"/>
-            <p class="agenda2">
+    <div className="com2">
+        <div className="circle2" >
+            <img src={whol} className="logo12" alt="logo"/>
+            <img src={whob} className="logo22" alt="logo"/>
+            <p className="agenda2">
                 <b>World Health Organization (WHO)</b>
             </p>
-            <div class="agendatext2">
+            <div className="agendatext2">
                 The UN General Assembly (UNGA) is the main policy-making organ of the Organization. Comprising all Member States, it provides a unique forum for multilateral discussion of the full spectrum of international issues covered by the Charter of the United Nations. Each of the Member States of the United Nations has an equal vote.
                 <div>
-                    <button class="button12">
-                       <b class="btext">EB & Agenda</b>
+                    <button className="button12">
+                       <b className="btext">EB & Agenda</b>
                     </button>
                 </div>
             </div>
 
 
         </div>
-        <div class="comImg">
+        <div className="comImg">
              
         </div>
     </div>
     
 
-        <div class="com1">
-            <div class="circle" >
-                <img src={legall} class="logo1" alt="logo" />
-                <img src={legalb} class="logo2" alt="logo" />
-                <p class="agenda">
-                    <b class="legal">UNGA Sixth Committee-Legal</b>
+        <div className="com1">
+            <div className="circle" >
+                <img src={legall} className="logo1" alt="logo" />
+                <img src={legalb} className="logo2" alt="logo" />
+                <p className="agenda">
+                    <b className="legal">UNGA Sixth Committee-Legal</b>
                 </p>
-                <div class="agendatext">
+                <div className="agendatext">
                     The UN General Assembly (UNGA) is the main policy-making organ of the Organization. Comprising all Member States, it provides a unique forum for multilateral discussion of the full spectrum of international issues covered by the Charter of the United Nations. Each of the Member States of the United Nations has an equal vote.
                     <div>
-                        <button class="button1">
-                            <b class="btext">EB & Agenda</b>
+                        <button className="button1">
+                            <b className="btext">EB & Agenda</b>
                         </button>
                     </div>
                 </div>
 
 
             </div>
-            <div class="comImg">
+            <div className="comImg">
 
             </div>
-        </div><div class="com2">
-                <div class="circle2" >
-                    <img src={unhrcl} class="logo12" alt="logo" />
-                    <img src={unhrcb} class="logo22" alt="logo" />
-                    <p class="agenda2">
+        </div><div className="com2">
+                <div className="circle2" >
+                    <img src={unhrcl} className="logo12" alt="logo" />
+                    <img src={unhrcb} className="logo22" alt="logo" />
+                    <p className="agenda2">
                         <b>United Nations Human Rights Council (UNHRC)</b>
                     </p>
-                    <div class="agendatext2">
+                    <div className="agendatext2">
                         The UN General Assembly (UNGA) is the main policy-making organ of the Organization. Comprising all Member States, it provides a unique forum for multilateral discussion of the full spectrum of international issues covered by the Charter of the United Nations. Each of the Member States of the United Nations has an equal vote.
                         <div>
-                            <button class="button12">
-                                <b class="btext">EB & Agenda</b>
+                            <button className="button12">
+                                <b className="btext">EB & Agenda</b>
                             </button>
                         </div>
                     </div>
 
 
                 </div>
-                <div class="comImg">
+                <div className="comImg">
 
                 </div>
             </div>
