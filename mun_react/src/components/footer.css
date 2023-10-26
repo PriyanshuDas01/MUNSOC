@@ -25,7 +25,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 14vw;
+  margin-top: 0vw;
+
 }
 
 .social-icon,

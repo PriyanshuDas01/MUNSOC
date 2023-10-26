@@ -27,7 +27,7 @@ export default function Com() {
                 scrollThreshold = 100; // Adjust this value for mobile phones
             } else {
                 // For larger screens (e.g., tablets, desktop)
-                scrollThreshold = 2700;
+                scrollThreshold = 2500;
                 // (viewportHeight * scrollThresholdPercentage) / 100
 
             }
@@ -98,7 +98,7 @@ export default function Com() {
     const imageStyles = {
         filter: isSticky ? `grayscale(${grayscale}%) brightness(${brightness}%)` : `grayscale(${0}%) brightness(${100}%)`,
         // top: isSticky ? `${margin}vw` : `45vw`,
-        top: isSticky ? `19vw` : `190vw`,
+        top: isSticky ? `19vw` : `175vw`,
         position: isSticky ? `fixed` : ``,
         // margin-bottom: isSticky?`19vw`:`100vw`,
         scale: isSticky ? `${scale}` : 1.1

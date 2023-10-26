@@ -3,11 +3,14 @@
     flex-direction: column;
     align-items: center;
     margin-top: 5vw;
+    background-color: #000000;
+    padding-bottom: 10vw;
 }
 
 .faq {
     width: 80VW;
     margin-bottom: 3vw;
+    
  
    background: linear-gradient(to bottom, 
    #333,    /* Lightest shade */
@@ -55,12 +58,13 @@
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
 
-h1{
-    margin-left: 35%;
+.head1{
+   align-items: center;
     margin-top: 0%;
     font-size: 7vw;
     font-family: var(--font-inder);
     color: #e0c00b;
     width: 29.63vw;
+    margin-left: 15vw;
 }
 

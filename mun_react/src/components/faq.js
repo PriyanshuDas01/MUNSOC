@@ -8,7 +8,7 @@ export default class About extends Component {
             <>
                 <div class="faq-container">
         <div>
-            <b><h1>FAQs</h1></b>
+            <div className='head1'><b>FAQs</b></div>
         </div>
         <div class="faq">
             <div class="question">Q: What is HTML?</div>
