@@ -7,6 +7,7 @@ import Com from './components/committee';
 import CountdownComponent from './components/count2';
 import Card from './components/committeecard';
 import Foot from './components/footer';
+import Faq from './components/faq';
 // import {
 //   BrowserRouter as Router,
 //   Routes,
@@ -24,6 +25,7 @@ function App() {
       <Com />
       <Card/>
       <Foot/>
+      <Faq/>
 
     </>
   );
