@@ -89,6 +89,6 @@ export default function Com() {
                 <div className={`hd ${isSticky ? 'invisible' : 'visible transition duration-1000 delay-100'}`}>COMMITTEES
                 </div>
                 </div>
-                <div className='divide'></div>
+                {/* <div className='divide'></div> */}
         </>)
 }
