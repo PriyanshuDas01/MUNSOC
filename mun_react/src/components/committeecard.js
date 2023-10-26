@@ -17,7 +17,7 @@ export default class Card extends Component {
             <>
 
             <div className='card'>
-                <div class="com1">
+                <div class="com1 'visible transition duration-1000 delay-800'">
         <div class="circle">
             <img src={disecl} class="logo1" alt="logo"/>
             <img src={disecb} class="logo2" alt="logo"/>
