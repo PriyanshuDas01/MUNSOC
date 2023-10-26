@@ -27,7 +27,8 @@ export default function Com() {
                 scrollThreshold = 100; // Adjust this value for mobile phones
             } else {
                 // For larger screens (e.g., tablets, desktop)
-                scrollThreshold = (viewportHeight * scrollThresholdPercentage) / 100;
+                scrollThreshold = 1500;
+                // (viewportHeight * scrollThresholdPercentage) / 100
 
             }
 
@@ -64,11 +65,6 @@ export default function Com() {
 
         // // Start calculating the bottom margin continuously
         // calculateBottomMargin();
-
-
-
-
-
         window.addEventListener('scroll', handleScroll);
 
         return () => {
