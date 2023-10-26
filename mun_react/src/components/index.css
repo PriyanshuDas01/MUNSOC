@@ -74,6 +74,7 @@
 .n {
   height: 10%;
   margin: 10px;
+  background-color: #000;
 }
 
 .rectangle-icon {
@@ -137,7 +138,7 @@
 .nit-agartala {
 
   display: absolute;
-  margin-left: 26%;
+  margin-left: 29%;
   color: #ffffff;
   text-shadow: -8px 4px 4px #000;
   font-family: Inter;
