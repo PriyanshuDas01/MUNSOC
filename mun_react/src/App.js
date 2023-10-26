@@ -24,8 +24,9 @@ function App() {
       < About />
       <Com />
       <Card/>
-      <Foot/>
       <Faq/>
+      <Foot/>
+      
 
     </>
   );
