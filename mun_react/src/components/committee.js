@@ -113,7 +113,7 @@ export default function Com() {
         <>
             <div className='com' >
                 <img src={globe} alt="Description of the image" className='globe' style={imageStyles} id='text' />
-                <img src={olive} className={`olive  ${isSticky ? 'invisible' : 'visible transition duration-1000 delay-800'}`} />
+                {/* <img src={olive} className={`olive  ${isSticky ? 'invisible' : 'visible transition duration-1000 delay-800'}`} /> */}
                 <div className={`hd ${isSticky ? 'invisible' : 'visible transition duration-1000 delay-100'}`}>COMMITTEES
                 </div>
             </div>
