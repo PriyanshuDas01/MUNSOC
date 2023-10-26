@@ -30,7 +30,7 @@
  .bgg{
    position:fixed;
    top: 0vw;
-   margin-top: 400vw;
+   /* margin-top: 400vw; */
    z-index:-3;
    width: 98%;
    margin-top: 10vh;
