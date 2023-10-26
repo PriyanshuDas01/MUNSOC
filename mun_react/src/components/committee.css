@@ -11,8 +11,8 @@
     z-index: -2;
     /* border-color: yellow;
     border-style: solid;
-    border-width: 5px; */
-    /* overflow-y: scroll; */
+    border-width: 5px;  */
+    /* overflow-y: scroll;*/
     
 }
 .globe{
@@ -26,7 +26,7 @@
     /* border-color: red;
     border-style: solid;
     border-width: 5px; */
-    z-index: -2;
+    /* z-index: -2; */
     position: sticky ;
     /* opacity: 1; */
     /* margin-bottom: 1px; */
@@ -56,16 +56,27 @@
     margin-top: 48vw;
     margin-left: 34vw;
     font-size: 5vw;
-    color: #31537E;
+    color: #0cb0eb;
     font-style: normal;
     font-family: 'Times New Roman', Times, serif;
     opacity: 0;
+    /* position: static; */
+    /* border-color: blue;
+   border-style: solid;
+   border-width: 1vw; */
 }
 .visible{
     visibility:visible; opacity:1
 }
-
+.divide{
+  position:static;
+  height: 20px;
+  /* border-color: red;
+   border-style: solid;
+   border-width: 1vw; */
+}
 /* =========================================================================================================== */
+
 
   
   

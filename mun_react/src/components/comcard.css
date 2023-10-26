@@ -11,18 +11,25 @@
  
    
  
- 
- /* * {
+/*  
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
  } */
+ .card{
+   position: static;
+   /* border-color: red;
+   border-style: solid;
+   border-width: 1vw; */
+   height: 125vw;
+ }
  
  .com1 {
     position: relative;
     margin-left: 9vw;
-    margin-top: 3vw;
+    /* margin-top: 3vw; */
     width: 25vw;
     height: 25vw;
     display: flex;

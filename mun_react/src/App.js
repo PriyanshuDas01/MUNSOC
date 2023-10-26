@@ -5,6 +5,7 @@ import Index from './components/index';
 import About from './components/aboutus';
 import Com from './components/committee';
 import CountdownComponent from './components/count2';
+import Card from './components/committeecard';
 // import {
 //   BrowserRouter as Router,
 //   Routes,
@@ -20,7 +21,7 @@ function App() {
       < CountdownComponent />
       < About />
       <Com />
-      <div className='come'></div>
+      <Card/>
 
     </>
   );

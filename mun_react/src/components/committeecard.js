@@ -1,15 +1,26 @@
 import React, { Component } from 'react'
 import './comcard.css'
+import disecb from './dicom.jpg';
+import disecl from './disec.png';
+import unhrcl from './unhrc.png';
+import whol from './who.png';
+import whob from './p2.jpg';
+import legalb from './p3.jpg';
+import unhrcb from './p4.jpg';
+import legall from './legal.png';
+
 
 export default class Card extends Component {
 
     render() {
         return (
             <>
+
+            <div className='card'>
                 <div class="com1">
-        <div class="circle" style="--clr:#028bf4;">
-            <img src="C:\Users\priya\OneDrive\Desktop\Web rotate\resoueces\disec.png" class="logo1"/>
-            <img src="C:\Users\priya\OneDrive\Desktop\Web rotate\resoueces\dicom.jpg" class="logo2"/>
+        <div class="circle">
+            <img src={disecl} class="logo1" alt="logo"/>
+            <img src={disecb} class="logo2" alt="logo"/>
             <p class="agenda">
                 <b>Disarmament and International Security Committee (DISEC)</b>
             </p>
@@ -20,6 +31,7 @@ export default class Card extends Component {
                        <b class="btext">EB & Agenda</b>
                     </button>
                 </div>
+            
             </div>
 
 
@@ -31,9 +43,9 @@ export default class Card extends Component {
 
 
     <div class="com2">
-        <div class="circle2" style="--clr:#028bf4;">
-            <img src="C:\Users\priya\OneDrive\Desktop\Web rotate\resoueces\who.png" class="logo12"/>
-            <img src="C:\Users\priya\OneDrive\Desktop\Web rotate\resoueces\p2.jpg" class="logo22"/>
+        <div class="circle2" >
+            <img src={whol} class="logo12" alt="logo"/>
+            <img src={whob} class="logo22" alt="logo"/>
             <p class="agenda2">
                 <b>World Health Organization (WHO)</b>
             </p>
@@ -54,10 +66,10 @@ export default class Card extends Component {
     </div>
     
 
-        <><div class="com1">
-            <div class="circle" style="--clr:#028bf4;">
-                <img src="C:\Users\priya\OneDrive\Desktop\Web rotate\resoueces\legal.png" class="logo1" />
-                <img src="C:\Users\priya\OneDrive\Desktop\Web rotate\resoueces\p3.jpg" class="logo2" />
+        <div class="com1">
+            <div class="circle" >
+                <img src={legall} class="logo1" alt="logo" />
+                <img src={legalb} class="logo2" alt="logo" />
                 <p class="agenda">
                     <b class="legal">UNGA Sixth Committee-Legal</b>
                 </p>
@@ -76,9 +88,9 @@ export default class Card extends Component {
 
             </div>
         </div><div class="com2">
-                <div class="circle2" style="--clr:#028bf4;">
-                    <img src="C:\Users\priya\OneDrive\Desktop\Web rotate\resoueces\unhrc.png" class="logo12" />
-                    <img src="C:\Users\priya\OneDrive\Desktop\Web rotate\resoueces\p4.jpg" class="logo22" />
+                <div class="circle2" >
+                    <img src={unhrcl} class="logo12" alt="logo" />
+                    <img src={unhrcb} class="logo22" alt="logo" />
                     <p class="agenda2">
                         <b>United Nations Human Rights Council (UNHRC)</b>
                     </p>
@@ -96,6 +108,11 @@ export default class Card extends Component {
                 <div class="comImg">
 
                 </div>
-            </div></>
+            </div>
+            </div>
 
-            </>)}}
+            </>
+            
+
+            )
+            }}

@@ -15,7 +15,8 @@
   height: 53vw;
   width: 98%;
   /* border-color: blue;
-  border-style: solid; */
+  border-style: solid;
+  border-width: 1vw; */
 }
 .back::before {
   content: "";
@@ -28,6 +29,9 @@
   background-size: 100% 100%;
   filter: brightness(75%);
   z-index: -1;
+  /* border-color: blue;
+  border-style: solid;
+  border-width: 1vw; */
 }
 
 .blurbox {

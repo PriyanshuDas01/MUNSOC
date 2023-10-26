@@ -1,6 +1,6 @@
-import React, { useRef, useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import './committee.css'
-import globe from './globe2.png'; // Replace with the actual path to your image
+import globe from './globe2.png';
 import olive from './olive2.png'
 
 
@@ -89,5 +89,6 @@ export default function Com() {
                 <div className={`hd ${isSticky ? 'invisible' : 'visible transition duration-1000 delay-100'}`}>COMMITTEES
                 </div>
                 </div>
+                <div className='divide'></div>
         </>)
 }
