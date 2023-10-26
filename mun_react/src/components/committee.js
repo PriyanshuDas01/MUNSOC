@@ -20,7 +20,7 @@ export default function Com() {
             setScrollValue(currentScrollValue);
             let scrollThreshold = 0;
             let viewportHeight = window.innerHeight;
-            let scrollThresholdPercentage = 280; // Adjust this value (e.g., 20%)
+            let scrollThresholdPercentage = 200; // Adjust this value (e.g., 20%)
 
             if (window.innerWidth <= 768) {
                 // For screens smaller or equal to 768px (typical mobile phones)
