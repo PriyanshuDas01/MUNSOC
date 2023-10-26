@@ -54,4 +54,15 @@
  color: #ffffff;
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
+<<<<<<< Updated upstream
 
+=======
+h1{
+    margin-left: 35%;
+    margin-top: 0%;
+    font-size: 7vw;
+    font-family: var(--font-inder);
+    color: #e0c00b;
+    width: 29.63vw;
+}
+>>>>>>> Stashed changes
