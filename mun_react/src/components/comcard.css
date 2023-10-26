@@ -28,7 +28,7 @@
  
  .com1 {
     position: relative;
-    margin-left: 9vw;
+    margin-left: 10vw;
     /* margin-top: 3vw; */
     width: 25vw;
     height: 25vw;
@@ -199,8 +199,9 @@
  
  .com2 {
     position: relative;
-     margin-left: 55vw;
+     margin-left: 60vw;
     margin-top: 3vw;
+    margin-bottom: 2vw;
     width: 25vw;
     height: 25vw;
     display: flex;
