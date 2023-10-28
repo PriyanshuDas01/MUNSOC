@@ -27,7 +27,7 @@ export default function Com() {
                 scrollThreshold = 500; // Adjust this value for mobile phones
             } else {
                 // For larger screens (e.g., tablets, desktop)
-                scrollThreshold = 2250;
+                scrollThreshold = 2300;
                 // (viewportHeight * scrollThresholdPercentage) / 100
 
             }
