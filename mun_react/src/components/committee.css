@@ -57,10 +57,15 @@
     margin-top: 48vw;
     margin-left: 34vw;
     font-size: 5vw;
-    color: #0cb0eb;
+    color: #5a91e5;
     font-style: normal;
     font-family: 'Times New Roman', Times, serif;
     opacity: 0;
+    width: 33vw;
+    background-color:transparent;
+    backdrop-filter: blur(10px);
+    -webkit-text-stroke: 0.5px #000;
+    text-shadow: -8px 2px 4px #000;
     /* position: static; */
     /* border-color: blue;
    border-style: solid;
