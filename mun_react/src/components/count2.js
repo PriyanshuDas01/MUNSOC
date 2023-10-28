@@ -146,10 +146,11 @@ const CountdownComponent = () => {
     // };
   }, []); // Empty dependency array to run the effect once after initial render
 
-  return (
+  return (<div className='c1'>
     <div className="countdown-container">
         <div className='counthead'>Conference Begins in</div>
       <canvas id="countdown-canvas"></canvas>
+    </div>
     </div>
   );
 };
