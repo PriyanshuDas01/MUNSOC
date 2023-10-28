@@ -27,7 +27,7 @@ export default function Com() {
                 scrollThreshold = 500; // Adjust this value for mobile phones
             } else {
                 // For larger screens (e.g., tablets, desktop)
-                scrollThreshold = 2500;
+                scrollThreshold = 2250;
                 // (viewportHeight * scrollThresholdPercentage) / 100
 
             }
@@ -84,15 +84,15 @@ export default function Com() {
         scale = scrollValue / 500;
         brightness = scrollValue / 10 - 50;
         top1 =10;
-        top2=295;
+        top2=290;
 
     } else {
         // For larger screens (e.g., tablets, desktop)
         grayscale = 50 - scrollValue / 100;
-        scale = scrollValue / 2300;
+        scale = scrollValue / 2400;
         brightness = scrollValue / 10 - 50;
         top1 =19;
-        top2=195;
+        top2=180;
 
 
     }
