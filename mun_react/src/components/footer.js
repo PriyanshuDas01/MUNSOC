@@ -28,11 +28,8 @@ export default class Footer extends Component {
         </a></li>
     </ul>
     <ul class="menu">
-      <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
-      <li class="menu__item"><a class="menu__link" href="#">About Us</a></li>
-      <li class="menu__item"><a class="menu__link" href="#">Comittees</a></li>
-      <li class="menu__item"><a class="menu__link" href="#">Teams</a></li>
-      <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+   
+      <li class="menu__item"><a class="menu__link" href="#">Contact Us</a></li>
 
     </ul>
     <p>&copy;2023 MUNSOC NITA | All Rights Reserved</p>

@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 5vw;
+    
     /* background-color: #000000; */
     background: linear-gradient(0deg, 
     #333,    /* Lightest shade */
@@ -85,5 +86,7 @@
     color: #e0c00b;
     width: 29.63vw;
     margin-left: 15vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
 }
 
