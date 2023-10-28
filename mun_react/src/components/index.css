@@ -18,6 +18,7 @@
   border-style: solid;
   border-width: 1vw; */
 }
+
 .back::before {
   content: "";
   position: absolute;
@@ -34,27 +35,31 @@
   border-width: 1vw; */
 }
 
+/* 
 .blurbox {
   position: absolute;
   height: 100vh;
   width: 100%;
-}
+} */
 
 .menu {
   margin-top: 0.5rem;
   height: 100%;
-  width: 40%;
+  width: 50%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  /* border-color: #e0c00b;
+  border-style: solid;
+  border-width: 0.5vw; */
 
 }
 
 .logo {
   margin-top: 0.5rem;
   margin-left: 1.5rem;
-  width: 7%;
-  height: 100%;
+  width: 10%;
+  height: 70%;
   /* border-style: solid;
   border-color: #e0c00b; */
 }
@@ -62,13 +67,17 @@
 /*  */
 
 .nav {
-  height: 5vw;
+  height: 8vw;
   width: 98%;
   position: absolute;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: stretch;
+  /* border-style: solid;
+  border-color: red;
+  border-width: 1vw; */
+
 }
 
 .n {
@@ -81,9 +90,9 @@
   /* position: absolute; */
   /* margin-left: 1.5rem; */
   /* margin-top: 0.75%; */
-  border-radius: 10%;
-  width: 100%;
-  height: 100%;
+  /* border-radius: 10%; */
+  width: 200%;
+  height: 160%;
   /* object-fit: cover; */
 }
 
@@ -111,7 +120,7 @@
   /* border-color: white;
   border-style: solid;
   border-width: 1px; */
-  
+
   z-index: 1;
 }
 
@@ -119,7 +128,7 @@
 .nit-agartala {
   position: absolute;
   -webkit-text-stroke: 0.5px #000;
- 
+
 }
 
 .model-united-nations {
@@ -132,7 +141,7 @@
   text-shadow: -8px 2px 4px #000;
   transform: rotate(0.05deg);
   transform-origin: 0 0;
-  
+
 }
 
 .nit-agartala {
@@ -141,7 +150,7 @@
   margin-left: 29%;
   color: #ffffff;
   text-shadow: -8px 4px 4px #000;
-  font-family: Inter;
+  font-family: var(--font-inder);
   /* font-size: 48px; */
   font-size: 4vw;
   font-style: normal;
@@ -165,6 +174,7 @@
   /* background: #FFD700; */
   border: 1px solid #FFD700;
   backdrop-filter: blur(2px);
+  margin-right: 1vw;
   /* box-shadow: 6px 6px 12px #FFD700,
              -6px -6px 12px #FFD700; */
 }
@@ -188,7 +198,7 @@
   display: block;
   transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
   z-index: -1;
-  
+
 }
 
 .button2:after {
@@ -221,4 +231,37 @@
   top: -45%;
   background-color: #FFD700;
   transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+@media (max-width: 768px) {
+  .back {
+    height: 140vw;
+    width: 98%;
+  }
+
+  .back::before {
+    height: 140vw;
+    width: 98%;
+  }
+
+  .headtext {
+    margin-top: 50%;
+
+  }
+
+  .model-united-nations {
+    margin-top: 4%;
+  }
+
+  .logo {
+    height:100% ;
+    width: 15%;
+  }
+  .button2 {
+    font-size: 2vw;
+  }
+  .menu{
+    width: 70%;
+  }
+
 }
