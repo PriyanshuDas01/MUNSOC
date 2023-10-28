@@ -11,13 +11,13 @@
     #1f1f1f,
     #000     /* Darkest shade */
  );
-   padding-bottom: 20vw;
+   padding-bottom: 10vw;
 }
 
  
 @media (max-width: 768px) {
     .faq-container {
-     padding-bottom: 30vw;
+     padding-bottom: 50vw;
      
     }
   }
