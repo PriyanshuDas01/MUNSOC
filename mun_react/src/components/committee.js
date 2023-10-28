@@ -92,7 +92,7 @@ export default function Com() {
         scale = scrollValue / 2400;
         brightness = scrollValue / 10 - 50;
         top1 =19;
-        top2=180;
+        top2=177;
 
 
     }
