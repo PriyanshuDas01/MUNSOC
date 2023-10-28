@@ -18,11 +18,11 @@ export default class Card extends Component {
             <>
 
                 <div className='card'>
-                <img src={combg} className="bgg"/>
+                <img src={combg} className="bgg" alt='combg'/>
                 <div className="com1 'visible transition duration-1000 delay-800'">
         <div className="circle">
-            <img src={disecl} className="logo1" alt="logo"/>
-            <img src={disecb} className="logo2" alt="logo"/>
+            <img src={disecl} className="logo1" alt="disecl"/>
+            <img src={disecb} className="logo2" alt="disecb"/>
             <p className="agenda">
                 <b>Disarmament and International Security Committee (DISEC)</b>
             </p>
@@ -46,8 +46,8 @@ export default class Card extends Component {
 
     <div className="com2">
         <div className="circle2" >
-            <img src={whol} className="logo12" alt="logo"/>
-            <img src={whob} className="logo22" alt="logo"/>
+            <img src={whol} className="logo12" alt="whol"/>
+            <img src={whob} className="logo22" alt="whob"/>
             <p className="agenda2">
                 <b>World Health Organization (WHO)</b>
             </p>
@@ -70,8 +70,8 @@ export default class Card extends Component {
 
         <div className="com1">
             <div className="circle" >
-                <img src={legall} className="logo1" alt="logo" />
-                <img src={legalb} className="logo2" alt="logo" />
+                <img src={legall} className="logo1" alt="legall" />
+                <img src={legalb} className="logo2" alt="legalb" />
                 <p className="agenda">
                     <b className="legal">UNGA Sixth Committee-Legal</b>
                 </p>
@@ -91,8 +91,8 @@ export default class Card extends Component {
             </div>
         </div><div className="com2">
                 <div className="circle2" >
-                    <img src={unhrcl} className="logo12" alt="logo" />
-                    <img src={unhrcb} className="logo22" alt="logo" />
+                    <img src={unhrcl} className="logo12" alt="unhrcl" />
+                    <img src={unhrcb} className="logo22" alt="unhrcb" />
                     <p className="agenda2">
                         <b>United Nations Human Rights Council (UNHRC)</b>
                     </p>

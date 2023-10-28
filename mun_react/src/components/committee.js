@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import './committee.css'
 import globe from './globe2.png';
-import olive from './olive2.png'
+// import olive from './olive2.png'
 
 
 
@@ -19,8 +19,8 @@ export default function Com() {
             const currentScrollValue = window.scrollY;
             setScrollValue(currentScrollValue);
             let scrollThreshold = 0;
-            let viewportHeight = window.innerHeight;
-            let scrollThresholdPercentage = 200; // Adjust this value (e.g., 20%)
+            // let viewportHeight = window.innerHeight;
+            // let scrollThresholdPercentage = 200; 
 
             if (window.innerWidth <= 768) {
                 // For screens smaller or equal to 768px (typical mobile phones)
@@ -116,7 +116,7 @@ export default function Com() {
     return (
         <>
             <div className='com' >
-                <img src={globe} alt="Description of the image" className='globe' style={imageStyles} id='text' />
+                <img src={globe} alt="Description" className='globe' style={imageStyles} id='text' />
                 {/* <img src={olive} className={`olive  ${isSticky ? 'invisible' : 'visible transition duration-1000 delay-800'}`} /> */}
                 <div className={`hd ${isSticky ? 'invisible' : 'visible transition duration-1000 delay-100'}`}>COMMITTEES
                 </div>
