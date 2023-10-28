@@ -4,6 +4,7 @@
 .AboutUs {
     margin-top: 0vw;
     display: block;
+    /* backdrop-filter: blur(10px); */
     
     /* border-color: red;
     border-style: solid; */

@@ -37,8 +37,9 @@
    margin-left: 1.5vh;
    margin-right: 1.5vh;
    margin-top: 0.5vw;
+   /* backdrop-filter: blur(10px); */
  
-   filter: grayscale(30%) brightness(50%);
+   filter: grayscale(30%) brightness(50%) blur(3px);
    
  }
 /* ----------------------------------image responsive size ----------------------------------------------------------------------------------------*/
