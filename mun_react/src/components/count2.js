@@ -46,8 +46,8 @@ const CountdownComponent = () => {
   
         r_count: '4',
         r_spacing: calculatePixelValue(1), // px
-        r_size: calculatePixelValue(10), // px
-        r_thickness:calculatePixelValue(0.3), // px
+        r_size: calculatePixelValue(13), // px
+        r_thickness:calculatePixelValue(0.5), // px
         update_interval: 11, // ms
         // r_count: 4,
         // r_spacing: calculateResponsiveValue(10), // Responsive calculation for spacing
@@ -128,12 +128,12 @@ const CountdownComponent = () => {
           // label
           ringer.ctx.fillStyle = "#ffffff";
          
-          ringer.ctx.font = '1vw Helvetica';
-          ringer.ctx.fillText(label, 0, 2 + ringer.actual_size * 0.15);
-          ringer.ctx.fillText(label, 0,  2 + ringer.actual_size * 0.15);   
+          ringer.ctx.font = '1.8vw Helvetica';
+          ringer.ctx.fillText(label, 0, 2 + ringer.actual_size * 0.2);
+          ringer.ctx.fillText(label, 0,  2 + ringer.actual_size * 0.2);   
           
-          ringer.ctx.font = 'bold 3vw Helvetica';
-          ringer.ctx.fillText(Math.floor(value), 0,0 + ringer.actual_size * 0.06);
+          ringer.ctx.font = 'bold 4vw Helvetica';
+          ringer.ctx.fillText(Math.floor(value), 0,0 + ringer.actual_size * 0.1);
           
           ringer.ctx.restore();
         }
@@ -148,7 +148,7 @@ const CountdownComponent = () => {
 
   return (<div className='c1'>
     <div className="countdown-container">
-        <div className='counthead'>Conference Begins in</div>
+        <div className='counthead'>CONFERENCE BEGINS IN</div>
       <canvas id="countdown-canvas"></canvas>
     </div>
     </div>

@@ -24,7 +24,7 @@ export default function Com() {
 
             if (window.innerWidth <= 768) {
                 // For screens smaller or equal to 768px (typical mobile phones)
-                scrollThreshold = 100; // Adjust this value for mobile phones
+                scrollThreshold = 500; // Adjust this value for mobile phones
             } else {
                 // For larger screens (e.g., tablets, desktop)
                 scrollThreshold = 2500;
@@ -76,17 +76,23 @@ export default function Com() {
     let grayscale = 50 - scrollValue / 100;
     let scale = scrollValue / 1500;
     let brightness = scrollValue / 10 - 50;
+    let top1 =19;
+    let top2 = 195;
     if (window.innerWidth <= 768) {
         // For screens smaller or equal to 768px (typical mobile phones)
         grayscale = 50 - scrollValue / 100;
-        scale = scrollValue / 80;
+        scale = scrollValue / 500;
         brightness = scrollValue / 10 - 50;
+        top1 =10;
+        top2=295;
 
     } else {
         // For larger screens (e.g., tablets, desktop)
         grayscale = 50 - scrollValue / 100;
         scale = scrollValue / 2300;
         brightness = scrollValue / 10 - 50;
+        top1 =19;
+        top2=195;
 
 
     }
@@ -98,7 +104,9 @@ export default function Com() {
     const imageStyles = {
         filter: isSticky ? `grayscale(${grayscale}%) brightness(${brightness}%)` : `grayscale(${0}%) brightness(${100}%)`,
         // top: isSticky ? `${margin}vw` : `45vw`,
-        top: isSticky ? `19vw` : `175vw`,
+        // top: isSticky ? `19vw` : `175vw`,
+        top: isSticky ? `${top1}vw` : `${top2}vw`,
+
         position: isSticky ? `fixed` : ``,
         // margin-bottom: isSticky?`19vw`:`100vw`,
         scale: isSticky ? `${scale}` : 1.1
