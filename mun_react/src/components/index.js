@@ -1,11 +1,11 @@
 import React from 'react'
 import './index.css'
 
-
 function Index() {
     return (
     <>
     <div className="back">
+      <video autoPlay muted loop src="back.mp4"/>
 
 {/* <img className="backimg" alt="" src="back.png" /> */}
 {/* <div className='blurbox'></div> */}

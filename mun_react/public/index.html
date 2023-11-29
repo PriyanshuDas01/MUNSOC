@@ -30,11 +30,28 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
   <title>NITA MUN</title>
+  <style>
+    .loadcont{
+          height: 53vw;
+          width: auto;
+          background-color: black;
+        }
+        .loader{
+            margin-left: 40vw;
+            margin-top: 15vw;
+            display: inline-block;
+        }
+  </style>
 </head>
 
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
+  <div id="root">
+    <div class="loadcont">
+      <img class="loader" src="./loader.gif"/>
+    </div>
+  </div>
+  
   <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
