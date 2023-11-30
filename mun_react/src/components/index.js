@@ -11,7 +11,8 @@ function Index() {
 {/* <div className='blurbox'></div> */}
 <div className='headtext'>
   <div className="model-united-nations ">MODEL UNITED NATIONS</div>
-  <div className="nit-agartala">NIT AGARTALA</div>
+            <div className="nit-agartala">NIT AGARTALA</div>
+            <div className="buttonr"><button>Register</button></div>
 </div>
 </div>
     </>

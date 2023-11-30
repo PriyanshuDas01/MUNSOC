@@ -21,9 +21,9 @@ export default class NavBar extends Component {
             <div className="home"><a href="!"><button className="button2">
               Contact Us
             </button></a></div>
-            {/* <div class="home"><a href="!"><button class="button2">
-              Login
-            </button></a></div> */}
+             <div class="home"><a href="!"><button class="button2">
+              Visit Us
+            </button></a></div> 
           </div>
         </div>
       </header></>
