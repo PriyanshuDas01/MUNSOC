@@ -9,16 +9,16 @@ export default class Footer extends Component {
             <footer class="footer">
   
     <ul class="social-icon">
-      <li class="social-icon__item"><a class="social-icon__link" href="#">
+      {/* <li class="social-icon__item"><a class="social-icon__link" href="#">
           <ion-icon name="logo-facebook"></ion-icon>
-        </a></li>
-      <li class="social-icon__item"><a class="social-icon__link" href="#">
+        </a></li> */}
+      {/* <li class="social-icon__item"><a class="social-icon__link" href="#">
           <ion-icon name="logo-twitter"></ion-icon>
-        </a></li>
-      <li class="social-icon__item"><a class="social-icon__link" href="#">
+        </a></li> */}
+      <li class="social-icon__item"><a class="social-icon__link" href="https://www.linkedin.com/company/munsoc-nita/mycompany/?viewAsMember=true">
           <ion-icon name="logo-linkedin"></ion-icon>
         </a></li>
-      <li class="social-icon__item"><a class="social-icon__link" href="#">
+      <li class="social-icon__item"><a class="social-icon__link" href="https://www.instagram.com/munsoc.nita/">
           <ion-icon name="logo-instagram"></ion-icon>
         </a></li>
     </ul>

@@ -21,7 +21,7 @@ export default class NavBar extends Component {
             <div className="home"><a href="!"><button className="button2">
               Contact Us
             </button></a></div>
-             <div class="home"><a href="!"><button class="button2">
+             <div class="home"><a href="https://www.munsoc.in/"><button class="button2">
               Visit Us
             </button></a></div> 
           </div>
