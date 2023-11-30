@@ -6,7 +6,7 @@ export default class Footer extends Component {
     render() {
         return (
             <>
-            <footer class="footer">
+            <footer class="footer" id='footer'>
   
     <ul class="social-icon">
       {/* <li class="social-icon__item"><a class="social-icon__link" href="#">
@@ -20,6 +20,9 @@ export default class Footer extends Component {
         </a></li>
       <li class="social-icon__item"><a class="social-icon__link" href="https://www.instagram.com/munsoc.nita/">
           <ion-icon name="logo-instagram"></ion-icon>
+        </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="https://www.munsoc.in/">
+          <ion-icon name="globe"></ion-icon>
         </a></li>
     </ul>
     <ul class="menu">
