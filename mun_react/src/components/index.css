@@ -155,7 +155,7 @@ video{
 .nit-agartala {
 
   display: absolute;
-  margin-left: 29%;
+  margin-left: 32%;
   color: #ffffff;
   text-shadow: -8px 4px 4px #000;
   font-family: var(--font-inder);
@@ -169,24 +169,35 @@ video{
 .buttonr{
   z-index: 1;
   display: absolute;
-  margin-left: 35%;
+  margin-left: 40%;
   margin-top: 4vw;
   border: #000;
   background-color: #0bb5e0;
   margin-right: 32vw;
-  padding-left: 5vw;
-  border-radius: 2vw;
+  padding-left: 1.9vw;
+  border-radius: 1vw;
   color:#ffffff;
   text-shadow:1vw #000000;
   font-family: var(--font-inder);
   /* font-size: 48px; */
   font-size: 3vw;
   /* font-style: normal; */
-  font-weight: 400;
+  font-weight: 450;
   
   
   
 }
+
+.buttonr:hover {
+  color: rgb(226, 211, 5);
+  font-weight: 550;
+  padding-left: 1.7vw;
+  border-right: 0.4vw solid rgb(87, 86, 86);
+  border-bottom: 0.4vw solid rgb(87, 86, 86);
+  cursor: pointer;
+  transform: translateY(-10px);
+}
+
 
 .button2 {
   /* margin-top: 10%; */
