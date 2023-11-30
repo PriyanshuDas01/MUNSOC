@@ -272,7 +272,7 @@ video{
     border-width: 1px;
     border-style: solid;
   }
-  video{
+  .vid{
     height: 200vw;
     width: 98%;
     object-fit: cover;
