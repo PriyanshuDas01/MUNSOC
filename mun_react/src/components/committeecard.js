@@ -27,8 +27,8 @@ export default class Card extends Component {
                 <b>Disarmament and International Security Committee (DISEC)</b>
             </p>
             <div className="agendatext">
-                The UN General Assembly (UNGA) is the main policy-making organ of the Organization. Comprising all Member States, it provides a unique forum for multilateral discussion of the full spectrum of international issues covered by the Charter of the United Nations. Each of the Member States of the United Nations has an equal vote.
-                <div>
+            The United Nations General Assembly First Committee, also known as UNGA-DISEC, is crucial for global security. Comprising all UN member states, it addresses disarmament and international security issues.UNGA-DISEC plays a vital role in shaping policies to mitigate threats, prevent conflicts, and promote global stability.
+                <div className='buttons'>
                     <button className="button1">
                        <b className="btext">EB & Agenda</b>
                     </button>
@@ -51,9 +51,8 @@ export default class Card extends Component {
             <p className="agenda2">
                 <b>World Health Organization (WHO)</b>
             </p>
-            <div className="agendatext2">
-                The UN General Assembly (UNGA) is the main policy-making organ of the Organization. Comprising all Member States, it provides a unique forum for multilateral discussion of the full spectrum of international issues covered by the Charter of the United Nations. Each of the Member States of the United Nations has an equal vote.
-                <div>
+            <div className="agendatext2">The World Health Organization (WHO) is crucial for global health leadership. It sets international health standards, coordinates responses to pandemics, and provides vital health information. As a specialized agency of the UN, WHO plays a central role in safeguarding public health, preventing diseases, and promoting equitable access to healthcare worldwide.
+                <div className='buttons'>
                     <button className="button12">
                        <b className="btext">EB & Agenda</b>
                     </button>
@@ -76,8 +75,8 @@ export default class Card extends Component {
                     <b className="legal">UNGA Sixth Committee-Legal</b>
                 </p>
                 <div className="agendatext">
-                    The UN General Assembly (UNGA) is the main policy-making organ of the Organization. Comprising all Member States, it provides a unique forum for multilateral discussion of the full spectrum of international issues covered by the Charter of the United Nations. Each of the Member States of the United Nations has an equal vote.
-                    <div>
+                The United Nations General Assembly Legal Committee (UNGA Legal) is crucial for shaping international law. It reviews legal issues, drafts conventions, and provides a forum for nations to discuss legal matters. UNGA Legal's decisions influence global legal frameworks, fostering cooperation and ensuring the rule of law in the international community.
+                    <div className='buttons'>
                         <button className="button1">
                             <b className="btext">EB & Agenda</b>
                         </button>
@@ -97,8 +96,8 @@ export default class Card extends Component {
                         <b>United Nations Human Rights Council (UNHRC)</b>
                     </p>
                     <div className="agendatext2">
-                        The UN General Assembly (UNGA) is the main policy-making organ of the Organization. Comprising all Member States, it provides a unique forum for multilateral discussion of the full spectrum of international issues covered by the Charter of the United Nations. Each of the Member States of the United Nations has an equal vote.
-                        <div>
+                    The United Nations Human Rights Council (UNHRC) plays a pivotal role in promoting and protecting human rights globally. It investigates human rights violations, proposes resolutions, and engages in dialogue with nations to address issues. As a key UN body, the UNHRC contributes significantly to the advancement of human rights and international cooperation.
+                        <div className='buttons'>
                             <button className="button12">
                                 <b className="btext">EB & Agenda</b>
                             </button>
