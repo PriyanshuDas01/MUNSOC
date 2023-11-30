@@ -27,7 +27,12 @@ export default class Footer extends Component {
     </ul>
     <ul class="menu">
    
-      <li class="menu__item"><a class="menu__link" href="#">Contact Us</a></li>
+                <li class="menu__item"><a class="menu__link" href="#"><b><u>Contact Us</u></b></a></li>
+              </ul>
+              <ul>
+                <li class="menu__item1"><a class="menu__link" href="#">Anshuman Rai: +91-8009220632 </a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Rudransh Shrivastav: +91-7488935612 </a></li>
+                
 
     </ul>
     <p>&copy;2023 MUNSOC NITA | All Rights Reserved</p>

@@ -38,6 +38,7 @@ video{
   width: 100%;
   height: 53vw;
   object-fit: cover;
+
 }
 
 /* 
@@ -62,7 +63,7 @@ video{
 
 .logo {
   margin-top: 0.5rem;
-  margin-left: 1.5rem;
+  margin-left: 3rem;
   width: 10%;
   height: 70%;
   /* border-style: solid;
@@ -152,6 +153,7 @@ video{
   /* text-shadow: -8px 2px 4px #000; */
   transform: rotate(0.05deg);
   transform-origin: 0 0;
+  text-shadow: 2px 2px 2px #000;
 
 }
 
@@ -167,7 +169,23 @@ video{
   /* font-style: normal; */
   font-weight: 800;
   line-height: normal;
+  text-shadow: 1.5vw 1.5vw 1.5vw #000;
   /* box-shadow: -8px 4px 4px 0px #000000; */
+}
+
+.date{
+  display: absolute;
+  margin-left: 38%;
+  margin-top: 1vw;
+  color: rgb(206, 209, 19);
+  /* text-shadow: -8px 4px 4px #000; */
+  font-family: var(--font-inder);
+  /* font-size: 48px; */
+  font-size: 2.5vw;
+  /* font-style: normal; */
+  font-weight: 800;
+  line-height: normal;
+  text-shadow: 2px 2px 2px #000;
 }
 .buttonr{
   z-index: 1;
@@ -186,6 +204,7 @@ video{
   font-size: 3vw;
   /* font-style: normal; */
   font-weight: 450;
+  box-shadow: 2px 2px 2px white;
   
   
   
@@ -199,6 +218,7 @@ video{
   border-bottom: 0.4vw solid rgb(87, 86, 86);
   cursor: pointer;
   transform: translateY(-10px);
+  box-shadow: 0px 0px 0px white;
 }
 
 
@@ -219,7 +239,7 @@ video{
   backdrop-filter: blur(80px);
   margin-right: 0vw;
   margin-right: 0.4vw;
-  
+  text-shadow: 2px 2px 2px #000;
   /* box-shadow: 6px 6px 12px #FFD700,
              -6px -6px 12px #FFD700; */
 }
@@ -264,6 +284,7 @@ video{
 .button2:hover {
   color: #000000;
   border: 1px solid #FFD700;
+  text-shadow: 0px 0px 0px #000;
 }
 
 .button2:hover:before {
@@ -304,7 +325,7 @@ video{
   }
 
   .model-united-nations {
-    margin-top: 4%;
+    margin-top: 24%;
   }
   .nit-agartala {
     margin-top: 0%;

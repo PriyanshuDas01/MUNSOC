@@ -51,7 +51,11 @@ body {
   margin: 0 10px;
   display: inline-block;
   transition: 0.5s;
-  padding-top: 5vw;
+  padding-top: 3vw;
+}
+.menu__item1 {
+  list-style: none;
+  margin-left: 1.8vw;
 }
 .social-icon__link:hover {
   transform: translateY(-10px);
