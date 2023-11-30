@@ -5,6 +5,13 @@ html, body {
   max-width: 100%;
   overflow-x: hidden;
 }
+body::-webkit-scrollbar {
+  width: 0.000000001em;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
 body {
   position: relative;
   background-color:black;
@@ -15,7 +22,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+  overflow: scroll;  */
 }
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
