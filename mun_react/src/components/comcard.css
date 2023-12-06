@@ -202,7 +202,7 @@
        opacity: 0;
        transform: scaleY(.9);
        width:45vw ;
-    
+       z-index: 5;
     }
     .com1:hover .circle .agendatext{
        opacity: 1;
@@ -222,6 +222,11 @@
           background-color: #3089b9;
           border-color: rgb(255, 255, 255);
           border-width: 0.2vw;
+          z-index: 5;
+       }
+       .button1:hover , .btext:hover , .button12:hover{
+         color: gold;
+         border-color: gold;
        }
    
        .btext{
@@ -373,6 +378,7 @@
        opacity: 0;
        transform: scaleY(.9);
        width:45vw ;
+       z-index: 5;
        
     
     }
@@ -394,8 +400,9 @@
           background-color: #3089b9;
           border-color: rgb(255, 255, 255);
           border-width: 0.2vw;
-          
+          z-index: 5;   
        }
+       
        
      
        .btext{
