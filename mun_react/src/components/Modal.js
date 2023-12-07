@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDom from 'react-dom'
 import "./modal.css"
-import eb1 from './disec.png'
+
 
 const MODAL_STYLES = {
   position: 'fixed',
@@ -25,25 +25,34 @@ const OVERLAY_STYLES = {
   zIndex: 1000
 }
 
-export default function Modal({ open, children, onClose , ag1 , ag1i , ag1n}) {
+export default function Modal({ open, children, onClose, ag1, ag1i, ag1n }) {
   if (!open) return null
 
   return ReactDom.createPortal(
     <>
       <div style={OVERLAY_STYLES} />
+
       <div style={MODAL_STYLES} className='mod'>
         {/* {children} */}
+
         <div className='agendapop'>Agenda</div>
         <div className='popbox'>
-          
-        <div className='agendatextpop'>
-          {ag1}
-        </div>
-        <div className='ebn'>{ag1n}</div>
-        <img src={ag1i} className="ebi" alt="disecl" />
-        <button className="close" onClick={onClose}>Close</button>
 
-      </div>
+          <div className='agendatextpop'>
+            {ag1}
+          </div>
+
+          <figure class="snip1113 blue hover"><img src={ag1i} alt="pr-sample3" />
+            <figcaption>
+              <h3>{ag1n}</h3>
+              <h4>
+                Executive Board
+              </h4>
+            </figcaption>
+          </figure>
+          <button className="close" onClick={onClose}>Close</button>
+
+        </div>
       </div>
     </>,
     document.getElementById('portal')
