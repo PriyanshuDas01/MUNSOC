@@ -107,7 +107,7 @@ export default function Card() {
                                 <div style={BUTTON_WRAPPER_STYLES} onClick={() => console.log('clicked')}>
                                     <button className="button1" onClick={() => {c(1);}
                                     }>
-                                        <b className="btext">EB & Agenda: Coming soon</b>
+                                        <b className="btext">EB & Agenda</b>
                                     </button>
                                     <Modal ag1={data.ag1} ag1i={data.ag1i} ag1n={data.ag1n} open={isOpen} onClose={() => setIsOpen(false)}>
 
@@ -137,7 +137,7 @@ export default function Card() {
                                 <div style={BUTTON_WRAPPER_STYLES} onClick={() => console.log('clicked')}>
                                     <button className="button12" onClick={() => { setIsOpen(true);  c(2);
                                     }}>
-                                        <b className="btext">EB & Agenda: Coming soon</b>
+                                        <b className="btext">EB & Agenda</b>
                                     </button>
                                     <Modal ag1={data.ag1} ag1i={data.ag1i} ag1n={data.ag1n} open={isOpen} onClose={() => setIsOpen(false)}>
 
@@ -165,7 +165,7 @@ export default function Card() {
                             <div className='buttons'>
                                 <div style={BUTTON_WRAPPER_STYLES} onClick={() => console.log('clicked')}>
                                     <button className="button1" onClick={() => {setIsOpen(true);c(3)}}>
-                                        <b className="btext">EB & Agenda: Coming soon</b>
+                                        <b className="btext">EB & Agenda</b>
                                     </button>
                                     <Modal ag1={data.ag1} ag1i={data.ag1i} ag1n={data.ag1n} open={isOpen} onClose={() => setIsOpen(false)}>
 
@@ -191,7 +191,7 @@ export default function Card() {
                             <div className='buttons'>
                                 <div style={BUTTON_WRAPPER_STYLES} onClick={() => console.log('clicked')}>
                                     <button className="button12" onClick={() => {setIsOpen(true);c(4)}}>
-                                        <b className="btext">EB & Agenda: Coming soon</b>
+                                        <b className="btext">EB & Agenda</b>
                                     </button>
                                     <Modal ag1={data.ag1} ag1i={data.ag1i} ag1n={data.ag1n} open={isOpen} onClose={() => setIsOpen(false)}>
 
