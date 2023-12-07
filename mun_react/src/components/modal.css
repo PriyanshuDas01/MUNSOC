@@ -1,12 +1,13 @@
 .close{
     border-color: red;
     background-color: red;
-    padding: 1vw;
+    padding: 0.5vw;
     position:absolute;
     left: 40vw;
     bottom: 5vw;
     border-radius: 10%;
     color: white;
+    font-size: 1.5vw;
     /* height: 3vw; */
 }
 .mod{
@@ -65,6 +66,10 @@
  @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
  figure {
    left: 50vw;
+   top: 40%;
+   /* left: 50%; */
+   /* transform: translate(-50%, -50%), */
+   
  }
 figure.snip1113 {
   font-family: 'Raleway', Arial, sans-serif;
@@ -153,3 +158,11 @@ body {
   margin: 0;
   height: 100%;
 } */
+@media (max-width: 768px) {
+  figure{
+    scale: 0.4;
+    /* height: 50vw; */
+    translate: -10vw -32vw 50vw ;
+  left: 60%;
+  }
+}
