@@ -11,7 +11,8 @@
 }
 .mod{
    border-radius: 2%;
-   background-color: #2472a4;
+   /* background-color: #2472a4; */
+   background: linear-gradient(0.2deg, rgb(51, 204, 255) 4.8%, rgb(51, 102, 255) 85.5%);
 }
 
 .agendatextpop{
