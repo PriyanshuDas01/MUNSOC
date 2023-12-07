@@ -8,25 +8,29 @@
     border-radius: 10%;
     /* height: 3vw; */
 }
+.mod{
+   border-radius: 2%;
+   background-color: #2472a4;
+}
 
 .agendatextpop{
     position: absolute;
-    color:black ;
+    color: white;
     font-family: "Montserrat, sans-serif";
     left: 0;
     top: 0;
     margin-top: 15vw;
-    padding-left: 4vw;
+    padding: 2vw;
     margin-left: 2vw;
     font-size: 2vw;
     width:45vw ;
-    /* border-color: black;
-    border-style: solid;
-    border-width: 0.1vw;  */
+    border-color: yellow;
+    border-style: dashed;
+    border-width: 0.3vw; 
  }
  .agendapop{
     position: absolute;
-    color:black ;
+    color: white ;
     font-family: "Montserrat, sans-serif";
     left: 17vw;
     top: 0;

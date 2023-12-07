@@ -8,7 +8,7 @@ const MODAL_STYLES = {
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
-  backgroundColor: '#FFF',
+  
   padding: '50px',
   zIndex: 1000,
   height: '40vw',
@@ -31,7 +31,7 @@ export default function Modal({ open, children, onClose , ag1 , ag1i , ag1n}) {
   return ReactDom.createPortal(
     <>
       <div style={OVERLAY_STYLES} />
-      <div style={MODAL_STYLES}>
+      <div style={MODAL_STYLES} className='mod'>
         {/* {children} */}
         <div className='agendapop'>Agenda</div>
         <div className='popbox'>
