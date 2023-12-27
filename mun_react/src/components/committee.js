@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './committee.css'
-import globe from './globe2.png';
+import globe from '../assets/globe2.png';
 // import olive from './olive2.png'
 
 

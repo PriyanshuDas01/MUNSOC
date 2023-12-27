@@ -6,32 +6,32 @@ export default class Footer extends Component {
     render() {
         return (
             <>
-            <footer class="footer" id='footer'>
+            <footer className="footer" id='footer'>
   
-    <ul class="social-icon">
+    <ul className="social-icon">
       {/* <li class="social-icon__item"><a class="social-icon__link" href="#">
           <ion-icon name="logo-facebook"></ion-icon>
         </a></li> */}
       {/* <li class="social-icon__item"><a class="social-icon__link" href="#">
           <ion-icon name="logo-twitter"></ion-icon>
         </a></li> */}
-      <li class="social-icon__item"><a class="social-icon__link" href="https://www.linkedin.com/company/munsoc-nita/mycompany/?viewAsMember=true">
+      <li className="social-icon__item"><a className="social-icon__link" href="https://www.linkedin.com/company/munsoc-nita/mycompany/?viewAsMember=true">
           <ion-icon name="logo-linkedin"></ion-icon>
         </a></li>
-      <li class="social-icon__item"><a class="social-icon__link" href="https://www.instagram.com/munsoc.nita/">
+      <li className="social-icon__item"><a className="social-icon__link" href="https://www.instagram.com/munsoc.nita/">
           <ion-icon name="logo-instagram"></ion-icon>
         </a></li>
-        <li class="social-icon__item"><a class="social-icon__link" href="https://www.munsoc.in/">
+        <li className="social-icon__item"><a className="social-icon__link" href="https://www.munsoc.in/">
           <ion-icon name="globe"></ion-icon>
         </a></li>
     </ul>
-    <ul class="menu">
+    <ul className="menu">
    
-                <li class="menu__item"><a class="menu__link" href="#"><b><u>Contact Us</u></b></a></li>
+                <li className="menu__item menu__link"><b><u>Contact Us</u></b></li>
               </ul>
               <ul>
-                <li class="menu__item1"><a class="menu__link" href="#">Anshuman Rai: +91-8009220632 </a></li>
-                <li class="menu__item"><a class="menu__link" href="#">Rudransh Shrivastav: +91-7488935612 </a></li>
+                
+                <li className="menu__item menu__link">Rudransh Shrivastav: +91-7488935612 </li>
                 
 
     </ul>

@@ -1,20 +1,20 @@
-import React, { Component, useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import './comcard.css'
-import disecb from './dicom.jpg';
-import disecl from './disec.png';
-import unhrcl from './unhrc.png';
-import whol from './who.png';
-import whob from './p2.jpg';
-import legalb from './p3.jpg';
-import unhrcb from './p4.jpg';
-import legall from './legal.png';
-import combg from './bg1.png';
+import disecb from '../assets/dicom.jpg';
+import disecl from '../assets/disec.png';
+import unhrcl from '../assets/unhrc.png';
+import whol from '../assets/who.png';
+import whob from '../assets/p2.jpg';
+import legalb from '../assets/p3.jpg';
+import unhrcb from '../assets/p4.jpg';
+import legall from '../assets/legal.png';
+import combg from '../assets/bg1.png';
 import Modal from './Modal';
 
-import ag1i from './diseceb.png';
-import ag2i from './ebwho.png';
-import ag3i from './legaleb.jpeg';
-import ag4i from './hrceb.jpeg';
+import ag1i from '../assets/diseceb.png';
+import ag2i from '../assets/ebwho.png';
+import ag3i from '../assets/legaleb.jpeg';
+import ag4i from '../assets/hrceb.jpeg';
 
 
 const BUTTON_WRAPPER_STYLES = {
@@ -22,12 +22,12 @@ const BUTTON_WRAPPER_STYLES = {
     zIndex: 1
 }
 
-const OTHER_CONTENT_STYLES = {
-    position: 'relative',
-    zIndex: 2,
-    backgroundColor: 'red',
-    padding: '10px'
-}
+// const OTHER_CONTENT_STYLES = {
+//     position: 'relative',
+//     zIndex: 2,
+//     backgroundColor: 'red',
+//     padding: '10px'
+// }
 
 
 export default function Card() {
@@ -43,7 +43,7 @@ export default function Card() {
     
     // useEffect(() => {
     const c = (newProp) => {
-        if (newProp == 1){
+        if (newProp === 1){
             let updatedData = {
                 ag1: "Reducing Nuclear Dangers and Nuclear Disarmament in Middle East Asia in accordance to Agenda Item 98 (s) and 98 (y)" ,
                 ag1i: ag1i,
@@ -54,7 +54,7 @@ export default function Card() {
             setIsOpen(true);
 
         } 
-        else if (newProp==2){
+        else if (newProp===2){
             let updatedData = {
                 ag1: "Deliberating upon strategies to enhance and achieve universal health coverage with special emphasis to global response to the mental wellness emergencies",
                 ag1i: ag2i,
@@ -65,7 +65,7 @@ export default function Card() {
             setIsOpen(true);
 
         }
-        else if (newProp==3){
+        else if (newProp===3){
             let updatedData = {
                 ag1: "Discussion upon ongoing conflicts in the MENA region with special emphasis on uncontrolled usage of weapons",
                 ag1i: ag3i,
